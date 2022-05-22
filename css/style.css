@@ -1,5 +1,5 @@
 .wrapper{
-    background-color: #2e2e2e;
+    background-color: #000000;
     top: 0px;
     right: 0px;
     width: 100%;
@@ -22,7 +22,7 @@
 }
 
 .black{
-    background-color: black;
+    background-color: #2e2e2e;
 }
 
 .white{
@@ -34,7 +34,7 @@
     width: 70px;
     height: 70px;
     top: 75px;
-    right: 0px;
+    left: 80px;
     animation: L 10s ease infinite;
 }
 
@@ -43,47 +43,44 @@
         top: 75px;
         left: 80px;
     }
-
-
-    12.5%{
-        top: 82px;
+    10%{
+        top: 230px;
         left: 80px;
     }
-
-    25%{
-        top: 82px;
-        left: 240px;
+    20%{
+        top: 230px;
+        left: 155px;
     }
-
-    37.5%{
-        top: 242px;
-        left: 240px;
+    30%{
+        top: 385px;
+        left: 155px;
     }
-
+    40%{
+        top: 385px;
+        left: 235px;
+    }
     50%{
-        top: 242px;
-        left: 320px;
+        top: 385px;
+        left: 385px;
     }
-
-    62.5%{
-        top: 402px;
-        left: 320px;
+    60%{
+        top: 460px;
+        left: 385px;
     }
-
-    75%{
-        top: 402px;
-        left: 400px;
+    70%{
+       top: 460px;
+       left: 235px;
     }
-
-    87.5%{
-       top: 562px;
-       left: 400px;
-
+    80%{
+        top: 535px;
+        left: 235px;
     }
-
+    90%{
+        top: 535px;
+        left: 80px;
+    }
     100%{
-        top: 562px;
-        left: 480px;
+        top: 615px;
+        left: 80px;
     }
-    
 }
